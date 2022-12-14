@@ -5,3 +5,38 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+html{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #2081c3;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #f7f9f9;
+}
+
+img{
+    width: 150px;
+    height: 150px
+}
+
+footer{
+    background-color: #0a2c42;
+    color: white;
+}
+
+#beer-flex-row{
+    display: flex;
+}
+
+#beer-flex-column{
+    display: flex;
+    flex-direction: column;
+}
